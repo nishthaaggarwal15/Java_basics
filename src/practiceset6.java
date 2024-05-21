@@ -48,20 +48,20 @@ public class practiceset6 {
 //        System.out.println(" the average marks are " + summ/marks.length);
 
         //create a JAVA program to add two matrices of 2x3
-        int [][] matrices;
-
-        matrices= new  int[2][3];
-matrices [0][0]= 23;
-matrices [0] [1] = 45;
-matrices [0] [1] = 44;
-        matrices [1][0]= 23;
-        matrices [1] [1] = 45;
-        matrices [1] [2] = 44;
-        int sum= 0;
-        for ( int elements : matrices){
-            sum = sum + elements;
-        }
-
-        System.out.println();
-    }
-}
+//        int [][] matrices;
+//
+//        matrices= new  int[2][3];
+//matrices [0][0]= 23;
+//matrices [0] [1] = 45;
+//matrices [0] [1] = 44;
+//        matrices [1][0]= 23;
+//        matrices [1] [1] = 45;
+//        matrices [1] [2] = 44;
+//        int sum= 0;
+//        for ( int elements : matrices){
+//            sum = sum + elements;
+//        }
+//
+//        System.out.println(sum);
+//    }
+//}
