@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class practiceset6 {
-    public static void main(String[]args){
+    public static void main(String[]args) {
 
 
         // create a array of 5 floats and calculate their sum
@@ -63,5 +63,5 @@ public class practiceset6 {
 //        }
 //
 //        System.out.println(sum);
-//    }
-//}
+   }
+    }
