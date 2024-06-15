@@ -1,3 +1,6 @@
+import java.util.Random;
+import java.util.Scanner;
+
 public class dowholeee {
 public static void main(String[] args) {
 //    int i = 10;
@@ -58,20 +61,18 @@ public static void main(String[] args) {
 //    }
 //    System.out.println("okay");
 //}
-int i= 0;
-do{
-    i++;
-    System.out.println("hello"+i);
-    if(i>4 && i<8){
-        System.out.println("hanji");
-        continue;
-
-
-    } System.out.println("okay");
-
-}while(i<20);
-
-
+//int i= 0;
+//do{
+//    i++;
+//    System.out.println("hello"+i);
+//    if(i>4 && i<8){
+//        System.out.println("hanji");
+//        continue;
+//
+//
+//    } System.out.println("okay");
+//
+//}while(i<20);
 
 }
 }

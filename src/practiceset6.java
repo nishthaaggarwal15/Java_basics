@@ -16,7 +16,7 @@ public class practiceset6 {
         //Or GUESS THE NUMBER
 //         int [] numbers= { 2, 4,5, 6,7};
 //
-//        Scanner sc= new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
 //
 //        System.out.println("Guess the Number");
 //         int num= sc.nextInt();
@@ -63,5 +63,35 @@ public class practiceset6 {
 //        }
 //
 //        System.out.println(sum);
+
+        // First N even numbers till 50
+//        int j = sc.nextInt();
+//        for (int i=1; i<=50; i++){
+//            if(i%2==0){
+//                if(j>0){
+//                    System.out.println(i);
+//                    j--;
+//                }
+//            }
+//        }
+
+        // First N prime numbers
+        int n = sc.nextInt();
+
+      for ( int i = 2; i<=n; i++){
+          boolean flag = true;
+          for (int j =2; j<i;j++){
+              if(i%j==0){
+                  flag = false;
+                  break;
+              }
+
+          }
+          if ( flag== true){
+              System.out.println(i);
+          }
+      }
+
+
    }
     }
