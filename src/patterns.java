@@ -84,20 +84,59 @@ Pattern for N = 3
 1  2
 123*/
         // Loop through each row
-        for (int i = 1; i <= n; i++) {
-            // Loop through each column in the row
-            for (int j = 1; j <= n; j++) {
-                // Check conditions to print numbers or spaces
-                if (i == 1 || i == n || j == 1 || j == n) {
-                    // Print numbers for first row, last row, first column, and last column
-                    System.out.print(j);
-                } else {
-                    // Print space for middle columns in middle rows
-                    System.out.print(" ");
-                }
+//        for (int i = 1; i <= n; i++) {
+//            // Loop through each column in the row
+//            for (int j = 1; j <= n; j++) {
+//                // Check conditions to print numbers or spaces
+//                if (i == 1 || i == n || j == 1 || j == n) {
+//                    // Print numbers for first row, last row, first column, and last column
+//                    System.out.print(j);
+//                } else {
+//                    // Print space for middle columns in middle rows
+//                    System.out.print(" ");
+//                }
+//            }
+//            // Move to the next line after each row
+//            System.out.println();
+
+        /*Print the following pattern for the given N number of rows.
+
+Pattern for N = 3
+123
+1  2
+123*/
+//        int num = 1;
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= n; j++) {
+//                if (i == 1 || i == n) {
+//                    // Print numbers for the first and last row
+//                    System.out.print(num++);
+//                } else {
+//                    // Print numbers for the first and last columns of the middle rows
+//                    if (j == 1 || j == n) {
+//                        System.out.print(num++);
+//                    } else {
+//                        // Print spaces for the middle columns of the middle rows
+//                        System.out.print(" ");
+//                    }
+//                }
+//            }
+//            // Move to the next line after each row
+//            num=1;
+//            System.out.println();
+//        }
+        //MIRROR IMAGE OF A TRIANGLE
+        for ( int i = 1; i<=n;i++){
+            //for spaces
+            for (int j = 1; j<= n-i;j++){
+                System.out.print(" ");
             }
-            // Move to the next line after each row
+            // for stars
+            for ( int k = 1; k<=i; k++){
+                System.out.print("*");
+            }
             System.out.println();
+        }
 
     }}
 
