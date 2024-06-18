@@ -126,18 +126,114 @@ Pattern for N = 3
 //            System.out.println();
 //        }
         //MIRROR IMAGE OF A TRIANGLE
-        for ( int i = 1; i<=n;i++){
+//        for ( int i = 1; i<=n;i++){
             //for spaces
-            for (int j = 1; j<= n-i;j++){
-                System.out.print(" ");
-            }
-            // for stars
-            for ( int k = 1; k<=i; k++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//            for (int j = 1; j<= n-i;j++){
+//                System.out.print(" ");
+//            }
+//            // for stars
+//            for ( int k = 1; k<=i; k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
 
+        //Hour glass of triangle
+//        for( int i = 1; i<=n;i++){
+//            for( int j = 1; j<=i-1;j++){
+//                System.out.print(" ");
+//            }
+//
+//            for (int k= i; k<=n;k++) {
+//                System.out.print(k + " ");
+//            }
+//            System.out.println();
+//        }
+//        for ( int i=n-1; i>=1; i--){
+//            for( int j = 1; j<=i-1;j++){
+//                System.out.print(" ");
+//            }
+//
+//            for (int k= i; k<=n;k++) {
+//                System.out.print(k + " ");
+//            }
+//            System.out.println();
+//        }
+// REVERSE CHAR PATTERNN
+//        for (int i =1 ; i<=n; i++){
+//            char alpha =  (char) ('A'+ n-1);
+//            for ( int j= 1 ; j<=i; j++){
+//                System.out.print(alpha);
+//                alpha--;
+//            }
+//            System.out.println();
+//        }
+
+
+        //DIAMOND OF STARS
+        /* Print the following pattern for the given number of rows.
+
+Note: N is always odd.
+
+
+Pattern for N = 5*/
+//        int N  = sc.nextInt();
+//        int n1= (N+1)/2;
+//        int n2= n1-1;
+//        for ( int i = 1; i<=n1;i++){
+//            for( int j =1 ; j<=n1-i;j++){
+//                System.out.print(" ");
+//            }
+//            for ( int k =1; k<=2*i-1;k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for ( int i =n2; i>=1; i--){
+//            for ( int j =1;j<=n2-i+1;j++){
+//                System.out.print(" ");
+//            }
+//            for ( int k=1 ; k <=2*i-1;k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+        //fILLED K SHAPE
+//        for (int i =n; i>=1;i--){
+//            int count =i;
+//            for ( int j =1; j<=i;j++){
+//                System.out.print (count+ " ");
+//                count--;
+//            }
+//            System.out.println();
+//        }
+//        for ( int i= 2;i<=n;i++){
+//            int count = i;
+//            for ( int j =1; j<=i;j++){
+//                System.out.print(count +" ");
+//                count--;
+//            }
+//            System.out.println();
+//
+//        }
+        // ISOSCLES TRIANGLE
+//        for ( int i =1 ; i<=n; i++){
+//            for ( int j =1; j<=n-i; j++){
+//                System.out.print(" ");
+//            }
+//            int count = i;
+//            for ( int k = 0; k<i;k++){
+//                System.out.print(count);
+//                count++;
+//            }
+//            count -=2;
+//            for ( int g =1; g<i; g++){
+//                System.out.print(count);
+//                count--;
+//            }
+//            System.out.println();
+//        }
     }}
 
 
