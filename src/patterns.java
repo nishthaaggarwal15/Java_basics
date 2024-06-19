@@ -234,6 +234,22 @@ Pattern for N = 5*/
 //            }
 //            System.out.println();
 //        }
+
+        // Pascal's Triangle
+//        for ( int i = 1; i<=n; i++){
+//            for ( int j= 1; j<=n-i; j++){
+//                System.out.print(" ");
+//            }
+//            int num = 1;
+//            for ( int k = 1; k<i;k++){
+//                System.out.print(num+ " ");
+//                num =num*(i-k)/k;
+//            }
+//            for( int g = 1; g<=1; g++){
+//                System.out.print(g);
+//            }
+//            System.out.println();
+//        }
     }}
 
 
