@@ -19,5 +19,21 @@ public class methods {
             int rollno= sc.nextInt();
             printName(name,number, rollno);
         }
+        //Area of circle
+//        public static double calculateCircleArea(double radius)
+//        {
+//            // write your logic here !!
+//            double area = 3.14159 *radius*radius;
+//            return area;
+//
+//
+//
+//        }
+//        public static void main (String [] args){
+//            Scanner sc = new Scanner(System.in);
+//            double radius = sc.nextDouble();
+//            double ar1= calculateCircleArea(radius);
+//            System.out.println(ar1);
+//        }
 
 }}
