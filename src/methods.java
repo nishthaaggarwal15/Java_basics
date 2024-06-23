@@ -1,11 +1,24 @@
 import java.util.Scanner;
 
 public class methods {
-    public  static  void printName(String name, long number, int rollno){
+    public  static  void printDetails(String name, long number, int rollno){
+        Scanner sc = new Scanner(System.in);
         System.out.println("Name:"+ name);
         System.out.println("Number:"+ number);
         System.out.println("roll no: "+ rollno);
+        System.out.println("enter your current balance");
+        double currentBalance = sc.nextDouble();;
+        System.out.println("enter the credit amount");
+        double credit = sc.nextDouble();
+        System.out.println("enter the debit amount");
+        double debit = sc.nextDouble();
+        double Balance =   CalcBalance(currentBalance,credit,debit);
+        System.out.println("Balance"+Balance );
+
     }
+public  static double CalcBalance (double currentBalance, double credit , double debit){
+        return currentBalance+credit-debit;
+}
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         for ( int i = 1; i<=5; i++){
@@ -17,7 +30,10 @@ public class methods {
             long number = sc.nextLong();
             System.out.println("Enter your roll no");
             int rollno= sc.nextInt();
-            printName(name,number, rollno);
+
+
+
+            printDetails(name,number, rollno);
         }
         //Area of circle
 //        public static double calculateCircleArea(double radius)
