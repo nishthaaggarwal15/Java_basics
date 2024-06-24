@@ -34,4 +34,49 @@ public class arrays2 {
     public static void main(String[] args) {
 CalcBalance(5);
     }
+    /*Given an array/list(ARR) of length N, you need to find and return the sum of all the elements in the array/list.
+    import java.util.Scanner;
+
+public class Solution {
+
+    public static int sum(int[] arr) {
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read the size of the array
+        int N = sc.nextInt();
+
+        // Initialize the array with the given size
+        int[] arr = new int[N];
+
+        // Read the array elements
+        for (int i = 0; i < N; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Call the sum function and print the result
+        System.out.println(sum(arr));
+    }
+}
+public static int sum(int[] arr) {
+    // Initialize the sum variable
+    int sum = 0;
+
+    // Iterate through each element in the array and add it to the sum
+    for (int i : arr) {
+        sum += i;
+    }
+
+    // Return the total sum
+    return sum;
+}
+
+     */
 }
