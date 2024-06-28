@@ -34,6 +34,7 @@ public class Zeroesatendofarray {
         }
 Push(arr);
         for ( int i : arr){
+            System.out.println("updated array");
             System.out.print(i+ " ");
         }
         /*
