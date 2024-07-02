@@ -29,7 +29,7 @@ public class tripletsum {
     }
 
     public static void main(String[] args) {
-        int cap = Input("enter the capacity of array");
+        int cap = Input("Enter the capacity of array");
         int arr [] = new int[cap];
         for ( int i = 0; i<arr.length; i++){
             arr[i]= Input("enter the value of index" + i);
