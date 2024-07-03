@@ -41,7 +41,15 @@ public class stringss {
 //        System.out.println(name.lastIndexOf(name));
 //        System.out.println(name.equals("nish"));
 
-        String myname= "harry";
-        System.out.println(myname.equalsIgnoreCase("nishtha"));
+//        String myname= "harry";
+//        System.out.println(myname.equalsIgnoreCase("nishtha"));
+        String str = "An apple a day keeps the doctor away";
+        int count = 0;
+        for ( int i = 0; i< str.length();i++){
+            if( str.charAt(i)==' '){
+            count++;
+            }
+        }
+        System.out.println(count+1);
     }
 }
