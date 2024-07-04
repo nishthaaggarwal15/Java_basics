@@ -1,3 +1,19 @@
+/*
+Problem statement
+You are having a character array (arr) containing ASCII characters. You are required to reverse the character array (arr) and return it as a string.
+
+You must do this by modifying the input array.
+
+Output the reverse of the input array.
+
+Example :
+S = “hello”
+
+Explanation :
+
+The reverse of the input array is “olleh”.
+ */
+
 import java.util.Scanner;
 
 public class reversechararray {
