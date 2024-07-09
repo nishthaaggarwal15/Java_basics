@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class spiralmatrix {
     public static void printspiral ( int arr [][]){
+
+       //for rows
         int top =0;
         int bottom = arr.length-1;
+        //for columns
         int left = 0;
         int right = arr[0].length-1;
         while (left<=right && top<=bottom){
