@@ -32,7 +32,7 @@ public class spiralmatrix {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter no of rows ");
+        System.out.println("Enter no of rows ");
         int rows = sc.nextInt();
         System.out.println("enter no of columns");
         int columns = sc.nextInt();
